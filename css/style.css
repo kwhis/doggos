@@ -37,6 +37,8 @@ a:hover {
 
 div {
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
