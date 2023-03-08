@@ -2,24 +2,31 @@ body {
     margin: 0;
 }
 
-header {
+#header {
     display: flex;
     flex: 1;
     justify-content: space-between;
     background-color: #1F2937;
-}
-
-.backgroundColor {
-    background-color: #1F2937;
-}
-
-nav {
-    padding: 16px;
+    align-items: flex-end;
 }
 
 #icon {
     display: flex;
     flex: 0;
-    align-items: end;
     margin: 0;
 }
+
+ul, li, a {
+    display: flex;
+    text-decoration: none;
+    color: #F9FAF8;
+    padding: 0 5px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    border:#F9FAF8;
+    border-radius: .4em;
+  }
