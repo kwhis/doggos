@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 #header {
@@ -29,4 +30,35 @@ a:hover {
     color: #1F2937;
     border:#F9FAF8;
     border-radius: .4em;
-  }
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+div img {
+    padding: 20px;
+    align-self: center;
+}
+
+.container {
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+}
