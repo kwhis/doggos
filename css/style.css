@@ -1,8 +1,11 @@
+body {
+    margin: 0;
+}
+
 header {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    
     background-color: #1F2937;
 }
 
