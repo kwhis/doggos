@@ -64,6 +64,10 @@ div img {
     justify-content: center;
     padding: 50px;
 }
+
+.card {
+    flex-grow: 0;
+}
  
 h1 {
     font-size: 60px;
