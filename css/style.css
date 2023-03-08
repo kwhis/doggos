@@ -78,6 +78,11 @@ h1 {
 
 h2 {
     font-size: 48px;
+    text-shadow: 2px 2px #6488c1;
+}
+
+h3 {
+    text-transform: uppercase;
 }
 
 .quote{
@@ -95,10 +100,48 @@ button {
     align-self: center;
 }
 
+.container.bones {
+    background-image: url("../images/dog-bone.jpg");
+}
+
+.blueBox {
+    flex: 1;
+    flex-direction: column;
+    background-color: #3882F6;
+    border-radius: 2em;
+    width: 700px;
+    align-self: center;
+    padding: 20px;
+}
+
+.blueBox button {
+    border: solid #E5E7EB;
+    border-radius: .5em 0 0 .5em;
+    padding: 10px;
+    color:  #E5E7EB;
+}
+
 .container.background {
     color: #F9FAF8;
 }
 
 #footer {
     padding: 20px;
+}
+
+#dogNameGenerated {
+    flex: 1;
+    box-sizing: border-box;
+    background-color: #F9FAF8;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 0 .5em .5em 0;
+    justify-content: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-shrink: 1;
+    width: 300px;
+    align-self: center;
 }

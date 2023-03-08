@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
     <title>Doggos</title>
 </head>
 <body>
@@ -79,10 +80,14 @@
     <div class="container, quote">
         <blockquote cite="https://www.brainyquote.com/quotes/robert_wagner_376059">“A dog will teach you unconditional love. If you can have that in your life, things won’t be too bad.” – Robert Wagner</blockquote>
     </div>
-    <div class="container">
-        <h3>Want to know more?</h3>
-        <p>Sign up for our Doggo Newsletter by clicking that button right over there!</p>
-        <button>Sign up</button>
+    <div class="container bones">
+        <div class="blueBox">
+            <h3>The Dog Name Generator 3000</h3>
+            <div class="row">
+                <button onclick='nameGenerator()'>Click to Generate!</button>
+                <div id="dogNameGenerated"><i></i></div>
+            </div>  
+        </div>
     </div>
     <footer id="footer" class="container background">
         <span>kelswhis.com</span>
