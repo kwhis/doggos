@@ -38,6 +38,8 @@ a:hover {
 div {
     display: flex;
     justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 div img {
@@ -49,14 +51,20 @@ div img {
     flex-direction: column;
     flex: 1;
     justify-content: center;
+    padding: 50px;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 900;
 }
 
+h2 {
+    font-size: 48px;
+}
+
 .quote{
+    padding: 100px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
