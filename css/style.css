@@ -7,8 +7,11 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    background-color: #1F2937;
     align-items: flex-end;
+}
+
+.background{
+    background-color: #1F2937;
 }
 
 #icon {
@@ -45,6 +48,7 @@ div img {
 .container {
     flex-direction: column;
     flex: 1;
+    justify-content: center;
 }
 
 h1 {
@@ -61,4 +65,11 @@ h1 {
 
 button {
     background-color: #3882F6;
+    width: max-content;
+    max-width: 100%;
+    align-self: center;
+}
+
+.container.background {
+    color: #F9FAF8;
 }
