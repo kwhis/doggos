@@ -5,9 +5,10 @@ body {
 
 #header {
     display: flex;
-    flex: 1;
+    flex-wrap: wrap-reverse;
+    flex: 1 auto;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .background {
@@ -21,14 +22,18 @@ body {
 }
 
 ul, li, a {
-    display: flex;
+    list-style-type: none;
     text-decoration: none;
     color: #F9FAF8;
     padding: 0 5px;
     text-align: center;
 }
 
-a:hover {
+.navbar ul {
+    display: flex;
+}
+
+.navbar a:hover {
     background-color: #F9FAF8;
     color: #1F2937;
     border:#F9FAF8;
@@ -45,8 +50,12 @@ div {
 }
 
 div img {
-    padding: 20px 30px;
+    margin: 20px 30px;
     align-self: center;
+    border: 20px white;
+    border-radius: 12%;
+    border: 5px solid #3882F6;
+    border-style: inset;
 }
 
 .container {
@@ -55,7 +64,7 @@ div img {
     justify-content: center;
     padding: 50px;
 }
-
+ 
 h1 {
     font-size: 60px;
     font-weight: 900;
