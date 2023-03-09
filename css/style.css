@@ -93,7 +93,7 @@ h3 {
     color: #1F2937;
 }
 
-input {
+button {
     background-color: #3882F6;
     width: max-content;
     max-width: 100%;
@@ -115,7 +115,7 @@ input {
     padding: 20px;
 }
 
-.blueBox input {
+.blueBox button {
     border: solid #E5E7EB;
     border-radius: .5em 0 0 .5em;
     padding: 10px;
