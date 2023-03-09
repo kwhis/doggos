@@ -45,6 +45,7 @@ div {
     flex: 1;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-self: flex-start;
 }
 
 div img {
@@ -59,7 +60,6 @@ div img {
 .container {
     flex-direction: column;
     flex: 1;
-    justify-content: center;
     padding: 50px;
 }
 
