@@ -108,7 +108,7 @@ button {
     flex-direction: column;
     background-color: #3882F6;
     border-radius: 2em;
-    width: 700px;
+    width: max-content;
     align-self: center;
     padding: 20px;
 }
