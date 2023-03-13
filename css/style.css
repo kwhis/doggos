@@ -1,144 +1,146 @@
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 #header {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex: 1 auto;
-    justify-content: space-between;
-    align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex: 1 auto;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .background {
-    background-color: #1F2937;
+  background-color: #1f2937;
 }
 
 #icon {
-    display: flex;
-    flex: 0;
-    margin: 0;
+  display: flex;
+  flex: 0;
+  margin: 0;
 }
 
-ul, li, a {
-    list-style-type: none;
-    text-decoration: none;
-    color: #F9FAF8;
-    padding: 0 5px;
-    text-align: center;
+ul,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #f9faf8;
+  padding: 0 5px;
+  text-align: center;
 }
 
 .navbar ul {
-    display: flex;
+  display: flex;
 }
 
 .navbar a:hover {
-    background-color: #F9FAF8;
-    color: #1F2937;
-    border:#F9FAF8;
-    border-radius: .4em;
+  background-color: #f9faf8;
+  color: #1f2937;
+  border: #f9faf8;
+  border-radius: 0.4em;
 }
 
 div {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-self: flex-start;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: flex-start;
 }
 
 div img {
-    margin: 20px 30px;
-    align-self: center;
-    border-radius: 12%;
-    border: 5px solid #3882F6;
-    border-style: inset;
+  margin: 20px 30px;
+  align-self: center;
+  border-radius: 12%;
+  border: 5px solid #3882f6;
+  border-style: inset;
 }
 
 .container {
-    flex-direction: column;
-    flex: 1;
-    padding: 50px;
+  flex-direction: column;
+  flex: 1;
+  padding: 50px;
 }
 
 .card {
-    flex-grow: 0;
+  flex-grow: 0;
 }
- 
+
 h1 {
-    font-size: 60px;
-    font-weight: 900;
-    color: #1F2937;
-    text-shadow: 2px 2px #3882F6;
+  font-size: 60px;
+  font-weight: 900;
+  color: #1f2937;
+  text-shadow: 2px 2px #3882f6;
 }
 
 h2 {
-    font-size: 48px;
-    text-shadow: 2px 2px #6488c1;
+  font-size: 48px;
+  text-shadow: 2px 2px #6488c1;
 }
 
 h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.quote{
-    padding: 100px;
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+.quote {
+  padding: 100px;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
 
 button {
-    background-color: #3882F6;
-    max-width: 100%;
-    align-self: center;
-    padding: 5px;
-    color:  #E5E7EB;
+  background-color: #3882f6;
+  max-width: 100%;
+  align-self: center;
+  padding: 5px;
+  color: #e5e7eb;
 }
 
 .container.bones {
-    background-image: url("../images/dog-bone.jpg");
+  background-image: url("../images/dog-bone.jpg");
 }
 
 .blueBox {
-    flex: 1;
-    flex-direction: column;
-    background-color: #3882F6;
-    border-radius: 2em;
-    width: max-content;
-    align-self: center;
-    padding: 20px;
+  flex: 1;
+  flex-direction: column;
+  background-color: #3882f6;
+  border-radius: 2em;
+  width: max-content;
+  align-self: center;
+  padding: 20px;
 }
 
 .blueBox button {
-    border: solid #E5E7EB;
-    border-radius: .5em 0 0 .5em;
-    padding: 10px;
+  border: solid #e5e7eb;
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 10px;
 }
 
 .container.background {
-    color: #F9FAF8;
+  color: #f9faf8;
 }
 
 #footer {
-    padding: 20px;
+  padding: 20px;
 }
 
 #dogNameGenerated {
-    flex: 1;
-    box-sizing: border-box;
-    background-color: #F9FAF8;
-    width: max-content;
-    padding: 10px 20px;
-    border-radius: 0 .5em .5em 0;
-    justify-content: flex-start;
+  flex: 1;
+  box-sizing: border-box;
+  background-color: #f9faf8;
+  width: max-content;
+  padding: 10px 20px;
+  border-radius: 0 0.5em 0.5em 0;
+  justify-content: flex-start;
 }
 
 .generator {
-    display: flex;
-    flex-shrink: 1;
-    width: 300px;
-    align-self: center;
+  display: flex;
+  flex-shrink: 1;
+  width: 300px;
+  align-self: center;
 }
